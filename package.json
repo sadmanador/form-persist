@@ -75,15 +75,15 @@
     "resume-form",
     "form-expiry"
   ],
-  "author": "",
+  "author": "Sadman Ador <sadman.ador@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/form-persist"
+    "url": "https://github.com/sadmanador/form-persist"
   },
-  "homepage": "https://github.com/yourusername/form-persist#readme",
+  "homepage": "https://github.com/sadmanador/form-persist#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/form-persist/issues"
+    "url": "https://github.com/sadmanador/form-persist/issues"
   },
   "engines": {
     "node": ">=14.0.0"

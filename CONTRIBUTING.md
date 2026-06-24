@@ -5,7 +5,7 @@ Thank you for taking the time to contribute!
 ## Development setup
 
 ```bash
-git clone https://github.com/yourusername/form-persist
+git clone https://github.com/sadmanador/form-persist
 cd form-persist
 npm install
 ```
@@ -52,8 +52,8 @@ examples/      — illustrative usage (not executed by tests)
 
 ## Reporting bugs
 
-Open an issue at <https://github.com/yourusername/form-persist/issues> with:
+Open an issue at <https://github.com/sadmanador/form-persist/issues> with:
 
 1. Minimal reproduction (CodeSandbox or a short code snippet)
-2. Expected behaviour
-3. Actual behaviour + browser / Node version
+2. Expected behavior
+3. Actual behavior + browser / Node version
