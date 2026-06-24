@@ -1,0 +1,14 @@
+src/
+tests/
+examples/
+docs/
+coverage/
+node_modules/
+*.tsbuildinfo
+tsconfig.json
+tsup.config.ts
+jest.config.ts
+.eslintrc.json
+.prettierrc
+.gitignore
+form-persist-plan.md

@@ -1,0 +1,13 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "docs",
+  "readme": "README.md",
+  "plugin": [],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "skipErrorChecking": true,
+  "navigationLinks": {
+    "GitHub": "https://github.com/yourusername/form-persist"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name": "form-persist",
+  "version": "0.1.0",
+  "description": "Framework-agnostic form state persistence with multi-step support, auto-expiry, encryption, and large data handling. Works with React, React Native, Vue, Angular, Svelte, Next.js and plain HTML.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./react": {
+      "import": "./dist/react.esm.js",
+      "require": "./dist/react.js",
+      "types": "./dist/react.d.ts"
+    },
+    "./react-native": {
+      "import": "./dist/react-native.esm.js",
+      "require": "./dist/react-native.js",
+      "types": "./dist/react-native.d.ts"
+    },
+    "./vue": {
+      "import": "./dist/vue.esm.js",
+      "require": "./dist/vue.js",
+      "types": "./dist/vue.d.ts"
+    },
+    "./angular": {
+      "import": "./dist/angular.esm.js",
+      "require": "./dist/angular.js",
+      "types": "./dist/angular.d.ts"
+    },
+    "./svelte": {
+      "import": "./dist/svelte.esm.js",
+      "require": "./dist/svelte.js",
+      "types": "./dist/svelte.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts tests/**/*.ts",
+    "docs": "typedoc src/index.ts --out docs",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "form",
+    "persist",
+    "form-persist",
+    "auto-save",
+    "form-state",
+    "multi-step",
+    "wizard",
+    "form-recovery",
+    "localStorage",
+    "react",
+    "react-native",
+    "vue",
+    "angular",
+    "svelte",
+    "nextjs",
+    "form-storage",
+    "draft",
+    "resume-form",
+    "form-expiry"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/form-persist"
+  },
+  "homepage": "https://github.com/yourusername/form-persist#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/form-persist/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=14.0.0",
+    "@react-native-async-storage/async-storage": ">=1.0.0",
+    "react": ">=17.0.0",
+    "react-native": ">=0.68.0",
+    "svelte": ">=3.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-native": {
+      "optional": true
+    },
+    "@react-native-async-storage/async-storage": {
+      "optional": true
+    },
+    "vue": {
+      "optional": true
+    },
+    "@angular/core": {
+      "optional": true
+    },
+    "svelte": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.3.2",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^26.0.0",
+    "@types/react": "^19.2.17",
+    "@typescript-eslint/eslint-plugin": "^8.62.0",
+    "@typescript-eslint/parser": "^8.62.0",
+    "eslint": "^10.5.0",
+    "fake-indexeddb": "^6.2.5",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "prettier": "^3.8.4",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "svelte": "^4.2.20",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.5.1",
+    "typedoc": "^0.28.19",
+    "typescript": "^6.0.3",
+    "vue": "^3.5.38"
+  }
+}
